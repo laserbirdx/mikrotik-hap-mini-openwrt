@@ -2,6 +2,8 @@
 
 # OpenWrt on MikroTik hAP mini (RB931-2nD)
 
+![OpenWrt: 19.07.10 (ar71xx/mikrotik)](https://img.shields.io/badge/OpenWrt-19.07.10%20(ar71xx%2Fmikrotik)-00B5E2?logo=openwrt&logoColor=white) ![RAM: 32 MiB Low-Memory](https://img.shields.io/badge/RAM-32%20MiB%20Low--Memory-orange) ![install: Netboot (No Disassembly)](https://img.shields.io/badge/install-Netboot%20(No%20Disassembly)-brightgreen) ![license: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
+
 Installation guide for official OpenWrt 19.07.10 on the MikroTik RouterBOARD hAP mini
 (`RB931-2nD`, Qualcomm Atheros QCA9533, **32 MiB RAM**, 16 MiB SPI-NOR flash). OpenWrt is
 loaded into RAM over Ethernet (`ether1`) via RouterBOOT netboot (BOOTP + TFTP) and then
